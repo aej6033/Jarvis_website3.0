@@ -136,7 +136,6 @@ LOGOUT_REDIRECT_URL = '/'
 AUTHENTICATION_BACKENDS = [
     'downloads.auth_backends.UsernameOrEmailBackend',  # Custom backend
     'django.contrib.auth.backends.ModelBackend',      # Default backend
-    'allauth.account.auth_backends.AuthenticationBackend',  # Allauth backend
 ]
 
 
